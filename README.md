@@ -27,7 +27,7 @@ To run the **Star-Stones** web application locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone 
+   git clone https://github.com/Nikita-kanwar/Star-Stones.git
    cd Star-Stones
 
 2. Open the Application:
