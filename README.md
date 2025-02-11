@@ -1,6 +1,6 @@
 # Star-Stones
 
-Welcome to **Star-Stones**, a web application dedicated to showcasing exquisite marble and granite stones. This platform provides users with detailed information, high-quality images, and specifications of various stone types, assisting architects, designers, and homeowners in making informed decisions for their projects.
+A web application dedicated to showcasing exquisite marble and granite stones. This platform provides users with detailed information, high-quality images, and specifications of various stone types, assisting architects, designers, and homeowners in making informed decisions for their projects.
 
 ## Table of Contents
 
