@@ -305,6 +305,61 @@ header {
       top: 1.4rem;
       right: 2rem;
     }
+
+    @media (max-width: 715px) {
+        header {
+          padding: 10px 12px;
+        }
+        .home {
+            min-height: 80vh;
+          text-align: center;
+          grid-template-columns: 1fr;
+        }
+        
+        
+        .about {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+        .about-img {
+          order: 2;
+        }
+      }
+      @media (max-width: 515px) {
+        .connect {
+          flex-direction: column;
+        }
+        .connect .btn {
+          margin-top: 1rem;
+        }
+      }
+      @media (max-width: 450px) {
+        :root {
+          --big-font: 2rem;
+          --h2-font: 1.4rem;
+        }
+        .home-text {
+          padding-top: 2rem;
+        }
+      }
+      @media (max-width: 921px) {
+        header {
+          padding: 10px 15px;
+        }
+        :root {
+          --big-font: 3rem;
+          --h2-font: 1.7rem;
+        }
+      }
+      @media (max-width: 768px) {
+        section {
+          padding: 50px 8%;
+        }
+        #menu-icon {
+          display: initial;
+          color: var(--text-color);
+        }
+    }
   
 
 
