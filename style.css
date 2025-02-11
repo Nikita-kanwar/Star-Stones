@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 * {
     margin: 0;
@@ -87,7 +87,7 @@ header {
 }
 
 .home {
-     width: 100%;
+ width: 100%;
     min-height: 100vh; 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -280,31 +280,6 @@ header {
 
 
 
-    header .navbar {
-      position: absolute;
-      top: -400px;
-      left: 0;
-      right: 0;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      background: var(--bg-color);
-      box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
-      transition: 0.2s ease;
-    }
-    .navbar.active {
-      top: 100%;
-    }
-    .navbar a {
-      padding: 1.5rem;
-      display: block;
-      background: var(--bg-color);
-    }
-    #darkmode {
-      position: absolute;
-      top: 1.4rem;
-      right: 2rem;
-    }
 
     @media (max-width: 715px) {
         header {
@@ -315,7 +290,6 @@ header {
           text-align: center;
           grid-template-columns: 1fr;
         }
-        
         
         .about {
           grid-template-columns: 1fr;
@@ -359,7 +333,33 @@ header {
           display: initial;
           color: var(--text-color);
         }
+        
+     header .navbar {
+        position: absolute;
+        top: -400px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: var(--bg-color);
+        box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+        transition: 0.2s ease;
+      } 
+      .navbar.active {
+        top: 100%;
+      } 
+       .navbar a {
+        padding: 1.5rem;
+        display: block;
+        background: var(--bg-color);
+      }
+      #darkmode {
+        position: absolute;
+        top: 1.4rem;
+        right: 2rem;
+      } 
     }
   
 
-
+ 
