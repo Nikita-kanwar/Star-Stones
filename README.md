@@ -8,10 +8,6 @@ A web application dedicated to showcasing exquisite marble and granite stones. T
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 
-## Demo
-[Live Demo](https://starstones.netlify.app/)
-
-
 ## Features
 
 - **Comprehensive Stone Catalog**: Browse through an extensive collection of marble and granite stones with detailed descriptions and images.
